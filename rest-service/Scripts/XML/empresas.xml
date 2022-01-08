@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE empresa SYSTEM "/DTD/main.dtd">
+<empresa>
+
+
+	<equipos>
+
+
+		<equipo id="0001">
+
+			<tipo>Sobremesa </tipo>
+
+			<marca>MSI </marca>
+
+			<uso>E-sports </uso>
+
+			<SO>
+
+				<nombre>GNU Ubuntu </nombre>
+				<version>20.04 LTS </version>
+
+			</SO>
+
+			<hardware>
+				<procesador>Pentium I </procesador>
+				<Cantidad_Memoria velocidad="1 kb/s"> 1GB </Cantidad_Memoria>
+
+				<HDD>
+
+					<HDD_tipo>Viejo </HDD_tipo>
+					<capacidad>30 Kb</capacidad>
+
+				</HDD>
+
+				<pantalla>
+                
+					<diagonal>10" </diagonal>
+					<resolucion>124p </resolucion>
+
+				</pantalla>
+
+			</hardware>
+
+			<software>
+
+
+				<licenciaPago>
+
+					<LP_nombre>Winrar</LP_nombre>
+					<LP_version> 1.0</LP_version>
+					<LP_tipo>Volumen </LP_tipo>
+
+				</licenciaPago>
+
+
+				<LicenciaLibre>
+
+					<nombre>Photoshop </nombre>
+					<version>1.0.1 </version>
+
+				</LicenciaLibre>
+
+
+			</software>
+
+		</equipo>
+
+
+        <equipo id="0002">
+
+			<tipo>Portatil </tipo>
+
+			<marca>Lenovo </marca>
+
+			<uso>Organización</uso>
+            <uso>Creación</uso>
+
+			<SO>
+
+				<nombre>Windows </nombre>
+				<version>10 </version>
+
+			</SO>
+
+			<hardware>
+				<procesador> intel I690000k </procesador>
+				<Cantidad_Memoria velocidad="1 Gb/s"> 2GB </Cantidad_Memoria>
+
+				<HDD>
+
+					<HDD_tipo>Fast computing </HDD_tipo>
+					<capacidad>30 Tb</capacidad>
+
+				</HDD>
+
+				<pantalla>
+                
+					<diagonal>100" </diagonal>
+					<resolucion>4K </resolucion>
+
+				</pantalla>
+
+			</hardware>
+
+			<software>
+
+
+				<licenciaPago>
+
+					<LP_nombre>Premiere pro</LP_nombre>
+					<LP_version> 21.9</LP_version>
+					<LP_tipo>Edicion video </LP_tipo>
+
+				</licenciaPago>
+
+                <licenciaPago>
+
+					<LP_nombre>PowerPoint </LP_nombre>
+					<LP_version> 4.9</LP_version>
+					<LP_tipo> Presentaciones </LP_tipo>
+
+				</licenciaPago>
+
+				<LicenciaLibre>
+
+					<nombre>Gimp </nombre>
+					<version>9.5.1 </version>
+
+				</LicenciaLibre>
+
+                <LicenciaLibre>
+
+					<nombre>LibreOfice </nombre>
+					<version>6.4.3 </version>
+
+				</LicenciaLibre>
+
+			</software>
+
+		</equipo>
+
+	</equipos>
+
+	<usuarios>
+
+		<usuario id="0101">
+
+			<U_nombre> Pepe</U_nombre>
+			<Departamento>Relaciones Publicas </Departamento>
+			<telefono>903726736 </telefono>
+			<correo>ErPepe@gmail.com </correo>
+			<ubicacion>su casa </ubicacion>
+
+		</usuario>
+
+        <usuario id="0102">
+
+			<U_nombre> Juan</U_nombre>
+			<Departamento> Bellas Artes </Departamento>
+			<telefono>62567678 </telefono>
+			<correo>JuanilloElPillo@gmail.com </correo>
+			<ubicacion>Universidad </ubicacion>
+
+		</usuario>
+
+        <usuario id="0103">
+
+			<U_nombre> Antonio</U_nombre>
+			<Departamento>Gestión de recursos organeicos e inorganicos </Departamento>
+			<telefono>645673964 </telefono>
+			<correo>AntonioElMejor@gmail.com </correo>
+			<ubicacion>Planta -3 </ubicacion>
+
+		</usuario>
+
+        <usuario id="0104">
+
+			<U_nombre> Jose Francisco</U_nombre>
+			<Departamento> CEO </Departamento>
+			<telefono>60000001 </telefono>
+			<correo>SoyMiPropioJefeYElDelResto@gmail.com </correo>
+			<ubicacion>Su propia nube </ubicacion>
+
+		</usuario>
+
+        <usuario id="0105">
+
+			<U_nombre> Ignacio</U_nombre>
+			<Departamento>Coordinacion </Departamento>
+			<telefono>45552555 </telefono>
+            <telefono>677812912 </telefono>
+			<correo>Nacete@gmail.com </correo>
+			<ubicacion>Centro de mando ultrasecreto </ubicacion>
+
+		</usuario>
+        
+        <usuario id="0106">
+
+			<U_nombre> Jose</U_nombre>
+			<Departamento>Integridad estructural  </Departamento>
+			<telefono>567872676 </telefono>
+			<correo>SoyJoseEncantado@gmail.com </correo>
+			<ubicacion>Una chabola en el jardin </ubicacion>
+
+		</usuario>
+
+        <usuario id="0107">
+
+			<U_nombre> Juan Felipe </U_nombre>
+			<Departamento>Entrega de mensajeria </Departamento>
+			<telefono>46881762 </telefono>
+			<correo>correos@gmail.com </correo>
+			<ubicacion>Oficina de correos </ubicacion>
+
+		</usuario>
+
+
+	</usuarios>
+
+	<prestamos>
+
+		<prestamo id="0201">
+			<Pusuario idU="0101"/>
+			<Pequipo idE="0001"/>
+			<Fecha_Inicio> 18/11/2021</Fecha_Inicio>
+			<FIN>19/11/2021 </FIN>
+			<Fecha_Real_Dev>23/12/2034</Fecha_Real_Dev>
+			<comentarios>Es un moroso </comentarios>
+
+		</prestamo>
+
+
+        <prestamo id="0202">
+			<Pusuario idU="0102"/>
+			<Pequipo idE="0002"/>
+			<Fecha_Inicio> 20/11/2021</Fecha_Inicio>
+			<FIN>30/11/2021 </FIN>
+			<Fecha_Real_Dev>29/11/2021</Fecha_Real_Dev>
+			<comentarios>Lo ha devuelto un dia antes </comentarios>
+            <comentarios>Le he dado una piruleta </comentarios>
+
+		</prestamo>
+
+         <prestamo id="0203">
+			<Pusuario idU="0104"/>
+			<Pequipo idE="0002"/>
+			<Fecha_Inicio> 29/11/2021</Fecha_Inicio>
+			<FIN>30/12/2021 </FIN>
+			<comentarios>Por mi como si se lo queda, que es el jefe y lo tiene muy subidito </comentarios>
+
+
+		</prestamo>
+
+        
+
+	</prestamos>
+
+</empresa>

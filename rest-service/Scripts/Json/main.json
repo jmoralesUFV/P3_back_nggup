@@ -1,0 +1,202 @@
+{
+	"empresa": {
+		"equipos": {
+			"equipo": [
+				{
+					"tipo": "Sobremesa",
+					"marca": "MSI",
+					"uso": "E-sports",
+					"SO": {
+						"nombre": "GNU Ubuntu",
+						"version": "20.04 LTS"
+					},
+					"hardware": {
+						"procesador": "Pentium I",
+						"Cantidad_Memoria": {
+							"_velocidad": "1 kb/s"
+						},
+						"HDD": {
+							"HDD_tipo": "Viejo",
+							"capacidad": "30 Kb"
+						},
+						"pantalla": {
+							"diagonal": "10\"",
+							"resolucion": "124p"
+						}
+					},
+					"software": {
+						"licenciaPago": {
+							"LP_nombre": "Winrar",
+							"LP_version": "1.0",
+							"LP_tipo": "Volumen"
+						},
+						"LicenciaLibre": {
+							"nombre": "Photoshop",
+							"version": "1.0.1"
+						}
+					},
+					"_id": "0001"
+				},
+				{
+					"tipo": "Portatil",
+					"marca": "Lenovo",
+					"uso": [
+						"Organización",
+						"Creación"
+					],
+					"SO": {
+						"nombre": "Windows",
+						"version": "10"
+					},
+					"hardware": {
+						"procesador": "intel I690000k",
+						"Cantidad_Memoria": {
+							"_velocidad": "1 Gb/s"
+						},
+						"HDD": {
+							"HDD_tipo": "Fast computing",
+							"capacidad": "30 Tb"
+						},
+						"pantalla": {
+							"diagonal": "100\"",
+							"resolucion": "4K"
+						}
+					},
+					"software": {
+						"licenciaPago": [
+							{
+								"LP_nombre": "Premiere pro",
+								"LP_version": "21.9",
+								"LP_tipo": "Edicion video"
+							},
+							{
+								"LP_nombre": "PowerPoint",
+								"LP_version": "4.9",
+								"LP_tipo": "Presentaciones"
+							}
+						],
+						"LicenciaLibre": [
+							{
+								"nombre": "Gimp",
+								"version": "9.5.1"
+							},
+							{
+								"nombre": "LibreOfice",
+								"version": "6.4.3"
+							}
+						]
+					},
+					"_id": "0002"
+				}
+			]
+		},
+		"usuarios": {
+			"usuario": [
+				{
+					"U_nombre": "Pepe",
+					"Departamento": "Relaciones Publicas",
+					"telefono": "903726736",
+					"correo": "ErPepe@gmail.com",
+					"ubicacion": "su casa",
+					"_id": "0101"
+				},
+				{
+					"U_nombre": "Juan",
+					"Departamento": "Bellas Artes",
+					"telefono": "62567678",
+					"correo": "JuanilloElPillo@gmail.com",
+					"ubicacion": "Universidad",
+					"_id": "0102"
+				},
+				{
+					"U_nombre": "Antonio",
+					"Departamento": "Gestión de recursos organeicos e inorganicos",
+					"telefono": "645673964",
+					"correo": "AntonioElMejor@gmail.com",
+					"ubicacion": "Planta -3",
+					"_id": "0103"
+				},
+				{
+					"U_nombre": "Jose Francisco",
+					"Departamento": "CEO",
+					"telefono": "60000001",
+					"correo": "SoyMiPropioJefeYElDelResto@gmail.com",
+					"ubicacion": "Su propia nube",
+					"_id": "0104"
+				},
+				{
+					"U_nombre": "Ignacio",
+					"Departamento": "Coordinacion",
+					"telefono": [
+						"45552555",
+						"677812912"
+					],
+					"correo": "Nacete@gmail.com",
+					"ubicacion": "Centro de mando ultrasecreto",
+					"_id": "0105"
+				},
+				{
+					"U_nombre": "Jose",
+					"Departamento": "Integridad estructural",
+					"telefono": "567872676",
+					"correo": "SoyJoseEncantado@gmail.com",
+					"ubicacion": "Una chabola en el jardin",
+					"_id": "0106"
+				},
+				{
+					"U_nombre": "Juan Felipe",
+					"Departamento": "Entrega de mensajeria",
+					"telefono": "46881762",
+					"correo": "correos@gmail.com",
+					"ubicacion": "Oficina de correos",
+					"_id": "0107"
+				}
+			]
+		},
+		"prestamos": {
+			"prestamo": [
+				{
+					"Pusuario": {
+						"_idU": "0101"
+					},
+					"Pequipo": {
+						"_idE": "0001"
+					},
+					"Fecha_Inicio": "18/11/2021",
+					"FIN": "19/11/2021",
+					"Fecha_Real_Dev": "23/12/2034",
+					"comentarios": "Es un moroso",
+					"_id": "0201"
+				},
+				{
+					"Pusuario": {
+						"_idU": "0102"
+					},
+					"Pequipo": {
+						"_idE": "0002"
+					},
+					"Fecha_Inicio": "20/11/2021",
+					"FIN": "30/11/2021",
+					"Fecha_Real_Dev": "29/11/2021",
+					"comentarios": [
+						"Lo ha devuelto un dia antes",
+						"Le he dado una piruleta"
+					],
+					"_id": "0202"
+				},
+				{
+					"Pusuario": {
+						"_idU": "0104"
+					},
+					"Pequipo": {
+						"_idE": "0002"
+					},
+					"Fecha_Inicio": "29/11/2021",
+					"FIN": "30/12/2021",
+					"comentarios": "Por mi como si se lo queda, que es el jefe y lo tiene muy subidito",
+					"_id": "0203"
+				}
+			]
+		}
+	}
+}
