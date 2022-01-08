@@ -1,0 +1,57 @@
+<xml version="1.0" encoding="UTF-8">
+<!DOCTYPE empresa [
+<!ELEMENT empresa (equipos,usuarios,prestamos)>
+
+<!ELEMENT equipos (equipo)>
+
+<!ELEMENT equipo (tipo,marca,uso,SO,hardware,software)>
+<!ATTLIST equipo id CDATA #REQUIRED>
+<!ELEMENT tipo (#PCDATA)>
+<!ELEMENT marca (#PCDATA)>
+<!ELEMENT uso (#PCDATA)>
+<!ELEMENT SO (nombre,version)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT version (#PCDATA)>
+<!ELEMENT hardware (procesador,Cantidad_Memoria,HDD,pantalla)>
+<!ELEMENT procesador (#PCDATA)>
+<!ELEMENT Cantidad_Memoria (#PCDATA)>
+<!ATTLIST Cantidad_Memoria velocidad CDATA #REQUIRED>
+<!ELEMENT HDD (HDD_tipo,capacidad)>
+<!ELEMENT HDD_tipo (#PCDATA)>
+<!ELEMENT capacidad (#PCDATA)>
+<!ELEMENT pantalla (diagonal,resolucion)>
+<!ELEMENT diagonal (#PCDATA)>
+<!ELEMENT resolucion (#PCDATA)>
+<!ELEMENT software (licenciaPago,LicenciaLibre)>
+<!ELEMENT licenciaPago (LP_nombre,LP_version,LP_tipo)>
+<!ELEMENT LP_nombre (#PCDATA)>
+<!ELEMENT LP_version (#PCDATA)>
+<!ELEMENT LP_tipo (#PCDATA)>
+<!ELEMENT LicenciaLibre (nombre,version)>
+
+
+<!ELEMENT usuarios (usuario)>
+<!ELEMENT usuario (U_nombre,Departamento,telefono,correo,ubicacion)>
+<!ATTLIST usuario id CDATA #REQUIRED >
+<!ELEMENT U_nombre (#PCDATA)>
+<!ELEMENT Departamento (#PCDATA)>
+<!ELEMENT telefono (#PCDATA)>
+<!ELEMENT correo (#PCDATA)>
+<!ELEMENT ubicacion (#PCDATA)>
+
+<!ELEMENT prestamos (prestamo)>
+<!ELEMENT prestamo (Pusuario,Pequipo,Fecha_Inicio,FIN,Fecha_Real_Dev,comentarios)>
+<!ATTLIST prestamo id CDATA #REQUIRED>
+<!ELEMENT Pusuario EMPTY >
+<!ATTLIST Pusuario idU CDATA #REQUIRED>
+<!ELEMENT Pequipo EMPTY >
+<!ATTLIST Pequipo idE CDATA #REQUIRED>
+<!ELEMENT Fecha_Inicio (#PCDATA)>
+<!ELEMENT FIN (#PCDATA)>
+<!ELEMENT Fecha_Real_Dev (#PCDATA)>
+<!ELEMENT comentarios (#PCDATA)>
+
+
+
+
+        ]>
